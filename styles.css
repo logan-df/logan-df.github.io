@@ -1,18 +1,25 @@
 body {
-    background-color: mediumaquamarine;
+    background-color: white;
     font-family: arial;
 }
 h1 {
-    color: darkgoldenrod;
+    color: black;
     text-align: center;
 }
 .assign {
     display: flex;
     padding: 10px;
     margin: 10px;
-    background: orange;
+    border: 4px solid black;
+    background: #9A2A2A;
+    border-radius: 20px;
 }
 .assign img {
     width: 200px;
-    padding: 10px;
+    margin: 10px;
+    border: 2px solid black;
+}
+a {
+    text-decoration: none; 
+    color: black; 
 }
