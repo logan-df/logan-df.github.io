@@ -1,0 +1,29 @@
+body {
+    background:url(images/webappbackground1.webp);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #D9B54A;
+}
+
+#content {
+    background: mediumslateblue;
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+h1 {
+    color: #F2522E;
+}
+
+h2 {
+    color: #F2522E;
+}
+
+p {
+    color: white;
+}
