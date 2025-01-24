@@ -1,0 +1,59 @@
+body {
+    background:url(images/weightroom.webp);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: #252C33;
+}
+
+h2 {
+    color: #252C33;
+}
+
+img {
+    padding: 10px;
+    margin: 40px;
+    border: 5px solid pink;
+    border-radius: 5px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+td {
+    background: #4E5359;
+}
+
+th {
+    background: #419AF2;
+}
+
+a {
+    text-decoration: none;
+    background: pink;
+    color: white;
+    padding: 5px;
+}
+
+a:hover {
+    text-decoration: none;
+    background: hotpink;
+    color: white;
+    padding: 5px;
+}
+
+#content {
+    background: slategray;
+    color: white;
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+    border-radius: 5px;
+}
