@@ -1,0 +1,118 @@
+/*Structure*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#content {
+    background: tan;
+    margin: auto;
+    border: 3px solid blanchedalmond;
+}
+
+#main-header, #main-footer {
+    background: tan;
+    padding: 5px;
+    text-align: center;
+}
+
+#main-header {
+    color: darkcyan;
+}
+
+#main-footer {
+    color: white;
+}
+
+#page-content {
+    background: tan;
+    color: darkcyan;
+    padding: 5px;
+    margin: auto;
+}
+
+#section1 {
+    width: 85%;
+    margin: auto;
+    padding: 5px;
+}
+
+#section2 {
+    background: cadetblue;
+    color: white;
+}
+
+.content1v1 {
+    background: darkcyan;
+    color: tan;
+    padding: 5px;
+    margin-left: 0px;
+    margin-top: 5px;
+}
+
+.content1v2 {
+    background: lightcoral;
+    color: tan;
+    padding: 5px;
+    margin-left: 0px;
+    margin-top: 5px;
+}
+
+.content2v1 {
+    text-align: center;
+    margin: 10px;
+}
+
+.content2v1 p {
+    text-align: left;
+    margin: 10px;
+}
+
+.content2v2 {
+    background: lightcoral;
+    padding: 5px;
+}
+
+.content2v2 ul {
+    padding-left: 0;
+}
+
+.content2v2 li {
+    list-style-type: none;
+}
+
+.content2v2 a {
+    text-decoration: none;
+    color: white;
+}
+
+/*Main Navigation*/
+#main-nav ul {
+    padding-left: 0;
+}
+
+#main-nav li {
+    list-style-type: none;
+    padding: 5px;
+    background: lightcoral;
+    border: 1px solid blanchedalmond;
+}
+
+#main-nav li:hover {
+    background: indianred;
+}
+
+#main-nav a {
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
+
+/*Larger-Resolutions*/
+@media (min-width: 900px) {
+    #main-nav ul, .flex-container {
+        display: flex;
+    }
+    #main-nav li, .content2v1, .content2v2 {
+        flex: 1;
+    }
+}
