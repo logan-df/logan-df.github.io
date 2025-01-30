@@ -15,6 +15,8 @@ body {
 header, footer {
     background:#2B91AD;
     color:white;
+    position: relative;
+    padding: 20px 0 0; 
 }
 
 main {
@@ -33,6 +35,15 @@ main {
     margin-top:20px;
     padding:5px;
     text-align: center;
+    position: relative;
+}
+
+.idea-img p {
+    position: absolute;
+    padding: 5px;
+    background: #2B91AD;
+    color: white;
+    bottom: 0;
 }
 
 .gallery {
@@ -48,27 +59,76 @@ main {
     padding:5px;
 }
 
+/*Animations*/
+#animation-fun {
+    background: #2B91AD;
+    padding: 20px;
+    height: 200px;
+    position: relative;
+}
+
+#ball {
+    height: 30px;
+    width: 30px;
+    background: white;
+    border-radius: 50px;
+    animation-name: fun;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes fun {
+    0% {background-color: red;}
+    20% {background-color: orange;}
+    40% {background-color: yellow;}
+    60% {background-color: green;}
+    80% {background-color: blue;}
+    100% {background-color: indigo;}
+}
+
+/*Playing With Positioning*/
+#main-logo {
+    position: absolute;
+    left: 50px;
+}
+
 /* Navigation */
-#main-nav ul {
+#sub-nav {
+    position: absolute;
+    top: 0;
+    right: 5px;
+}
+
+#main-nav ul, #sub-nav ul {
     padding-left:0;
 }
 
-#main-nav li {
-    list-style-type: none;  /* remove the bullets */
-    background:#FFB58A;
+#main-nav li, #sub-nav li {
+    list-style-type: none;
     text-align: center;
     border-bottom:1px solid white;
 }
 
-#main-nav a {
+#main-nav li {
+    background:#FFB58A;
+}
+
+#sub-nav li {
+    margin: 0 5px;
+}
+
+#main-nav a, #sub-nav a {
     color:white;
     text-decoration: none;  /* remove the underlines */
     border-bottom:1px solid transparent;
 }
 
-#main-nav a:hover {
-    color:crimson;
+#main-nav a:hover, #sub-nav a:hover {
     border-bottom:1px solid white;
+}
+
+#main-nav a:hover {
+    color: crimson;
 }
 
 /* Typography */
