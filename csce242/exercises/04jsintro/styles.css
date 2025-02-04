@@ -1,6 +1,11 @@
 /* Structure */
+:root {
+    --main-background-color: #CDECEF;
+    --primary-color: #2B91AD:
+}
+
 body {
-    background:#CDECEF;
+    background: var(--main-background-color);
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -62,11 +67,15 @@ main {
     padding:5px;
 }
 
+.sad {
+    color: purple;
+}
+
 /* Animations */
 #animation-fun {
     background:#a0ccd8;
     padding:20px;
-    height:200px;
+    height:300px;
     position:relative;
 }
 
@@ -76,19 +85,31 @@ main {
     background:blue;
     border-radius:50px;
     animation-name: fun;
+    position: relative;
     animation-duration: 4s;
     animation-iteration-count: infinite;
 }
 
 @keyframes fun {
-    0% {background-color: red;}
+    0% {
+        background-color: red;
+        top: 0;
+    }
     20% {background-color: orange;}
     40% {background-color: yellow;}
-    60% {background-color:aqua;}
+    60% {
+        background-color:aqua;
+        left: 100px;
+        top: 200px
+    }
     70% {background-color: green;}
     80% {background-color: indigo;}
-    100% {background-color: violet;}
-  }
+    100% {
+        background-color: violet;
+        top: 0;
+        left: 0;
+    }
+}
 
 /* Playing with positioning */
 #main-logo {
