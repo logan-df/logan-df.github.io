@@ -15,5 +15,5 @@ document.getElementById("color-picker").onchange = () => {
 
 /*Change image on click*/
 document.getElementById("image").onclick = () => {
-    document.getElementById("image").src = 'https://picsum.photos/200' + new Date().getTime();
+    document.getElementById("image").src = 'https://picsum.photos/id/'+Math.floor(Math.random() * 100)+'/200';
 }
