@@ -1,0 +1,62 @@
+header, main, footer {
+    text-align: center;
+    color: #E8B566;
+}
+
+p {
+    text-align: left;
+    margin-left: 10px;
+}
+
+#footer-text {
+    text-align: center;
+}
+
+#sub-heading {
+    color: #A89474;
+}
+
+body {
+    background: steelblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.column {
+    background: #373B3E;
+    color: #E8B566;
+    border: 2px solid #69635A;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#image {
+    margin: auto;
+}
+
+/* Larger screens */
+@media only screen and (min-width: 768px) { 
+    .columns {
+        display:flex;
+    }
+
+    section {
+        flex: 1;
+    }
+}
+
+/* Star CSS from: https://css-shape.com/star/*/
+#star {
+    margin: 50px auto;
+    width: 300px;  
+    aspect-ratio: 1;
+    background: #F8CA00;
+    clip-path: polygon(50% 0,
+    calc(50%*(1 + sin(.4turn))) calc(50%*(1 - cos(.4turn))),
+    calc(50%*(1 - sin(.2turn))) calc(50%*(1 - cos(.2turn))),
+    calc(50%*(1 + sin(.2turn))) calc(50%*(1 - cos(.2turn))),
+    calc(50%*(1 - sin(.4turn))) calc(50%*(1 - cos(.4turn))) 
+    ); 
+    /* or more simple
+    clip-path: polygon(50% 0,79% 90%,2% 35%,98% 35%,21% 90%); 
+     */
+}
