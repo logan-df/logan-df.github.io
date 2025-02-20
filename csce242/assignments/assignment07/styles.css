@@ -1,0 +1,21 @@
+:root {
+    --main-background-color:#CDECEF;
+    --primary-color:#2B91AD;
+    --gallery-color:#FFB58A;
+    --text-1: coral;
+    --text-2: red;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background: var(--main-background-color);
+}
+
+h1 {
+    color: var(--text-1);
+}
+
+h2 {
+    color: var(--text-2);
+}
