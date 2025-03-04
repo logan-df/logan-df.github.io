@@ -52,6 +52,11 @@ footer {
     text-align: center;
 }
 
+.text {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
 @media (min-width: 900px) {
     .flex-container, .bordered-container {
         display: flex;
