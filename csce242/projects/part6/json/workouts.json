@@ -31,7 +31,7 @@
         "name": "Shoulder Press",
         "image": "../images/overheadpress.jpg",
         "compound": "True",
-        "muscle": "shoulders",
+        "muscle": "chest",
         "sets": "3",
         "reps": "6-8"
     },

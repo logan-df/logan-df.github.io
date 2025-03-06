@@ -15,17 +15,16 @@ const showWorkouts = async() => {
     const backSection = document.getElementById("back");
     const legsSection = document.getElementById("legs");
 
-    let i = 0;
     workouts.forEach((workout)=>{
         const workoutSection = document.createElement("section");
         workoutSection.classList.add("content");
-        if(i<=3) {
+        if(workout.muscle == "chest") {
             chestSection.append(workoutSection);
         }
-        else if(i<=7) {
+        if(workout.muscle == "back") {
             backSection.append(workoutSection);
         }
-        else {
+        if(workout.muscle == "legs") {
             legsSection.append(workoutSection);
         }
         const img = document.createElement("img");
@@ -34,7 +33,6 @@ const showWorkouts = async() => {
         const h3 = document.createElement("h3");
         h3.innerHTML = workout.name;
         workoutSection.append(h3);
-        i++;
     });
 }
 
