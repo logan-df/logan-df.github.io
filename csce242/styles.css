@@ -60,6 +60,10 @@ img {
     padding: 5px;
 }
 
+#setup1 p {
+    text-align: center;
+}
+
 
 /*Larger-Resolutions*/
 @media (min-width: 900px) {
