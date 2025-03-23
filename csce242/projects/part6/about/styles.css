@@ -65,6 +65,12 @@ body {
     border: none;
 }
 
+#content3 {
+    margin: auto;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
 .sub-content {
     border: 2px solid var(--primary-color);
     margin-bottom: 20px;

@@ -50,10 +50,33 @@
                         </section>
                     </section>
                 </div>
+                <div class="flex-container">
+                    <section class="content" id="content3">
+                        <h2>Contact Us</h2>
+                        <form method="POST" id="form">
+                            <input type="hidden" name="access_key" value="3a02fcd2-238b-4832-9707-aeee14c3b9fb">
+
+                            <label for="name">Name</label>
+                            <input type="text" name="name" required>
+
+                            <label for="email">Email</label>
+                            <input type="email" name="email" required>
+
+                            <label for="message">Message</label>
+                            <textarea name="message" required></textarea>
+                            <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+                        
+                            <button type="submit">Submit Form</button>
+                        
+                            <div id="result"></div>
+                        </form>
+                    </section>
+                </div>
             </main>
             <footer>
                 <p>&copy; GymPro.com</p>
             </footer>
         </section>
+        <script src="../js/about.js"></script>
     </body>
 </html>
