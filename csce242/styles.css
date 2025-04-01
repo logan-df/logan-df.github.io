@@ -64,6 +64,10 @@ img {
     text-align: center;
 }
 
+#setup2 p {
+    text-align: center;
+}
+
 
 /*Larger-Resolutions*/
 @media (min-width: 900px) {
